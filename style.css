@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgba(255, 255, 255, 0.851);
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 120px;
+}
+
+.galeria{
+    display: columns;
+    columns: 1;
+    
+    
+}
+img{
+    height: 270px;
+    border: 2px solid rgb(0, 0, 0) ;
+}
+
